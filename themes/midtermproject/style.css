@@ -1,0 +1,44 @@
+/*
+Theme Name: MidTerm Project
+Description: Demonstrate HTML layout of templates and use of sidebar to support widgets
+*/
+
+main {
+	border: 2px #a2a2a2 solid;
+	background: Azure;
+	float: left;
+	color: green;
+	width: 70%;
+}
+
+header { 
+	border: 2px #a2a2a2 solid;
+	background: DarkSalmon; }
+
+.my_header_menu_class ul {
+	list-style-type: none;
+}
+.my_header_menu_class ul li {
+	display: inline-block;
+}
+
+#sidebar {
+	border: 2px #a2a2a2 solid;
+	background: DarkSeaGreen;
+	float: right;
+	width: 10%;
+	text-align: center;
+}
+
+/* https://stackoverflow.com/questions/8554043/what-is-a-clearfix */
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+footer { 
+	border: 2px #a2a2a2 solid;
+	background: DarkSalmon; 
+}
